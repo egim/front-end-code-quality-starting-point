@@ -1,0 +1,18 @@
+{
+  "name": "some-awesome-linted-project",
+  "version": "1.0.0",
+  "description": "linted JS and SCSS",
+  "main": "src/index.html",
+  "sasslintConfig": ".sass-lint.yml",
+  "scripts": {
+    "test": "eslint src/js/* --fix-dry-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "sass-lint": "^1.12.1"
+  }
+}
