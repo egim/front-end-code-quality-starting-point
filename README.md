@@ -56,7 +56,7 @@ This project utilizes HTMLhint:
 
 - https://github.com/yaniswang/HTMLHint
 
-If a third party is delivering you static assets, this will ensure the rules in .htmlhintrc are enforced. Example flags include: src attributes that are empty and making sure id is used uniquely.
+If a third party is delivering you static assets, this will ensure the rules in .htmlhintrc are enforced in the markup. Example flags include: src attributes that are empty and making sure id is used uniquely.
 
 Configuration file is provided courtesy of the local file .htmlhintrc
 
