@@ -1,4 +1,4 @@
-# Linted Static Front-end Web Project
+# Linted Static Front-End Web Project
 
 Development projects worked on by large organizations need consistency, or code anarchy ensues. This project is for anyone in need of using a code standard for HTML/CSS/JS. I've used the AIRBNB standards for JS and CSS, but you can use your own lint configurations for sass-lint and eslint.
 
