@@ -59,11 +59,20 @@ If a third party is delivering you static assets, this will ensure the rules in 
 
 Configuration file is provided courtesy of the local file .htmlhintrc
 
-### SETUP
+## SETUP
 
-WIP
+Install dependencies:
 
-Install sass-lint, eslint, and htmlhint.
+```bash
+npm install
+```
+
+Install eslint and sass-lint globally:
+
+```bash
+npm install -g eslint
+npm install -g sass-lint
+```
 
 ## Running the JS linter
 
