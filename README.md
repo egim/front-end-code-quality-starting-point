@@ -8,8 +8,7 @@ If you're asking yourself why? Here are some of the pros:
 - You no longer need to make little style judgement calls throughout the day. Just consult the style guide.
 - We need agreements, promises and binding social contracts between developers so that our codebase can adapt over time.
 - Boost your code’s maintainability
-- Disclaimer: (I do not endorse the style guide because of personal bias, I love the consistency.)
-- Disclaimer: There are settings within the style guide that will need to be massaged as we grow as a team to prevent headaches (code complexity detection, etc).
+- Disclaimer: There are settings within the lint configurations that will need to be massaged as you grow as a team to prevent headaches (code complexity detection, etc).
 
 ## CSS LINTING:
 
@@ -54,7 +53,7 @@ https://www.npmjs.com/package/eslint-config-airbnb-base
 
 This project utilizes HTMLhint: https://github.com/yaniswang/HTMLHint
 
-If a third party is delivering you static assets, this will ensure the ruls in .htmlhintrc are enforced. Example flags include src attributes that are empty and making sure id is used uniquely.
+If a third party is delivering you static assets, this will ensure the rules in .htmlhintrc are enforced. Example flags include: src attributes that are empty and making sure id is used uniquely.
 
 Configuration file is provided courtesy of the local file .htmlhintrc
 
