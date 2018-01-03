@@ -14,9 +14,9 @@ If you're asking yourself why? Here are some of the pros:
 
 We will be using sass-lint to make sure our CSS adheres to the AIRBNB rules. See links below.
 
-https://github.com/sasstools/sass-lint
-https://github.com/sasstools/sass-lint/tree/develop/docs/rules
-https://github.com/airbnb/css
+- https://github.com/sasstools/sass-lint 
+- https://github.com/sasstools/sass-lint/tree/develop/docs/rules 
+- https://github.com/airbnb/css  
 
 The following are some of the rules we are using in our organization (adopted from https://github.com/airbnb/css):
 
@@ -39,19 +39,21 @@ Configuration file is provided courtesy of the local file .sass-lint.yml
 
 We will be using es-lint to make sure our JS adheres to the AIRBNB rules. See links below.
 
-https://github.com/eslint/eslint#configuration
+- https://github.com/eslint/eslint#configuration
 
 JS will be linted exactly to AIRBNB specs here:
 
-https://github.com/airbnb/javascript
+- https://github.com/airbnb/javascript
 
 Configuration file is provided courtesy of:
 
-https://www.npmjs.com/package/eslint-config-airbnb-base
+- https://www.npmjs.com/package/eslint-config-airbnb-base
 
 ## HTML LINTING:
 
-This project utilizes HTMLhint: https://github.com/yaniswang/HTMLHint
+This project utilizes HTMLhint: 
+
+- https://github.com/yaniswang/HTMLHint
 
 If a third party is delivering you static assets, this will ensure the rules in .htmlhintrc are enforced. Example flags include: src attributes that are empty and making sure id is used uniquely.
 
