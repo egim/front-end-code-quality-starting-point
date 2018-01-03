@@ -81,3 +81,5 @@ sass-lint -v
 ```bash
 htmlhint
 ```
+
+Note: There are sample styles, js, and html within the project that you can run the linter on.
