@@ -34,7 +34,7 @@ The following are some of the rules we are using in our organization (adopted fr
 - Put blank lines between rule declarations
 - Single line CSS not allowed
 
-Configuration file is provided courtesy of local file .sass-lint.yml.
+Configuration file is provided courtesy of the local file .sass-lint.yml
 
 ## JS LINTING:
 
@@ -50,11 +50,19 @@ Configuration file is provided courtesy of:
 
 https://www.npmjs.com/package/eslint-config-airbnb-base
 
+## HTML LINTING:
+
+This project utilizes HTMLhint: https://github.com/yaniswang/HTMLHint
+
+If a third party is delivering you static assets, this will ensure the ruls in .htmlhintrc are enforced. Example flags include src attributes that are empty and making sure id is used uniquely.
+
+Configuration file is provided courtesy of the local file .htmlhintrc
+
 ### SETUP
 
 WIP
 
-Install sass-lint and eslint...
+Install sass-lint, eslint, and htmlhint.
 
 ## Running the JS linter
 
@@ -66,4 +74,10 @@ eslint src/js/* --fix-dry-run
 
 ```bash
 sass-lint -v
+```
+
+## Running the HTML linter
+
+```bash
+htmlhint
 ```
