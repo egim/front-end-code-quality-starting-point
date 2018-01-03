@@ -8,7 +8,8 @@ If you're asking yourself why? Here are some of the pros:
 - You no longer need to make little style judgement calls throughout the day. Just consult the style guide.
 - We need agreements, promises and binding social contracts between developers so that our codebase can adapt over time.
 - Boost your code’s maintainability
-- Disclaimer: There are settings within the lint configurations that will need to be massaged as you grow as a team to prevent headaches (code complexity detection, etc).
+
+*Disclaimer: There are settings within the lint configurations that will need to be massaged as you grow as a team to prevent headaches (code complexity detection, etc).
 
 ## CSS LINTING:
 
